@@ -1,0 +1,94 @@
+#employee-header {
+	padding: 30px;
+	background: linear-gradient(#000000, #333333);
+	color: #fff;
+}
+#employee-header > img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+#employee-header .name {
+	margin-top: 15px;
+	font-size: 20px;
+}
+#employee-header .job {
+	margin-top: 10px;
+	font-size: 16px;
+}
+#employee-header .department {
+	font-size: 12px;
+}
+#employee-header .email {
+	margin-top: 10px;
+}
+#employee-header .signupcode {
+	margin-top: 10px;
+	font-size: 20px;
+}
+#employee-header .signupcode > div {
+	font-family: 'Consolas', sans-serif;
+	margin-top: 5px;
+}
+
+#content-box > .content {
+	padding: 0;
+}
+
+#employee-content {
+	padding: 15px;
+	overflow: auto;
+}
+
+#employee-details {
+	display: inline-table;
+}
+.ext {
+	width: 75px;
+	margin-left: 5px;
+}
+#employee-details select {
+	width: 171px;
+}
+
+#employee-details .avatar-errors > div.shake {
+	color: red;
+	animation-name: none !important;
+}
+
+.no-notations {
+	color: rgba(0, 0, 0, 0.6);
+	font-style: italic;
+}
+
+#leave-history .notes {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 200px;
+}
+#leave-history .notes:hover {
+	white-space: pre-line;
+	overflow: auto;
+}
+
+#keycard-table {
+	display: inline-table;
+	border-collapse: collapse;
+	border: 2px solid #333333;
+	background-color: rgba(0,0,0,.025);
+}
+#keycard-table th {
+	background-color: #333333;
+	color: #fff;
+	padding: 10px;
+}
+#keycard-table td {
+	padding: 10px;
+}
+#keycard-table tbody tr:not(:last-child) td:first-child {
+	font-weight: bold;
+}
+#keycard-table tr:last-child {
+	text-align: center;
+}

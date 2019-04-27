@@ -1,0 +1,74 @@
+#recruitment .split {
+	display: flex;
+	margin: 0;
+}
+
+.ext {
+	width: 75px !important;
+	margin-left: 5px;
+}
+
+#recruitment .avatar {
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+#recruitment .avatar::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 130px;
+	height: 130px;
+	background-image: url(/assets/img/transparency.svg);
+	background-size: cover;
+	background-position: 50% 50%;
+	border-radius: 50%;
+	z-index: -1;
+}
+#recruitment .avatar img {
+	border-radius: 50%;
+	margin-bottom: 15px;
+	width: 130px;
+	height: 130px;
+}
+#recruitment .avatar input {
+	width: 130px;
+}
+#recruitment .details {
+	flex: 1;
+	padding-left: 15px;
+}
+#recruitment .details input, #recruitment .details select {
+	width: 250px;
+}
+#recruitment .details table {
+	border-collapse: collapse;
+	width: 100%;
+}
+#recruitment .details table td:first-child {
+	width: 0;
+	white-space: nowrap;
+	padding-right: 10px;
+}
+#recruitment .details table td:last-child {
+	width: 100%;
+}
+
+#avatar-errors {
+	font-size: 12px;
+	text-align: center;
+}
+#avatar-errors > div {
+	display: inline-block;
+}
+#avatar-errors > div.shake {
+	color: red;
+}
+
+#avatar-remove {
+	font-size: 12px;
+	color: red;
+	margin-top: 10px;
+	cursor: pointer;
+}
